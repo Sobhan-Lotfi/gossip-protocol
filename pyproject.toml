@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "gossip-protocol"
+version = "0.1.0"
+description = "Gossip-based P2P network simulator with UDP transport and structured logging"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.7",
+    "networkx>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+gossip-node = "gossip.node:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
