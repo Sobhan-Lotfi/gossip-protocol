@@ -1,0 +1,986 @@
+{"ts": 1771686733.0400958, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "NODE_START", "config": {"port": 9013, "fanout": 3, "ttl": 8, "mode": "push", "pow_k": 0}}
+{"ts": 1771686733.0403256, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9000"}
+{"ts": 1771686733.0403786, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "GET_PEERS", "to_addr": "127.0.0.1:9000"}
+{"ts": 1771686733.040624, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9000"}
+{"ts": 1771686733.0406437, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686733.0406544, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686733.0406625, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686733.0406697, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686733.040677, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686733.0406835, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686733.0406907, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686733.0406969, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686733.0407019, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686733.0407102, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686733.0407171, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686733.040723, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686733.040877, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9000"}
+{"ts": 1771686733.0408866, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686733.0408907, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686733.040894, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686733.0408971, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686733.0409, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686733.0409033, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686733.0409064, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686733.0409095, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686733.040913, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686733.0409162, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686733.0409193, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686733.0409224, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.042274, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0423856, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0424533, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0425014, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0425463, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0425847, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0426219, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0426576, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0426948, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0427313, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0427687, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0428243, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "HELLO", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0432053, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0432532, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0432694, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0432837, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0432963, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.043307, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0433197, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0433323, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.043348, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0433638, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0433784, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0433915, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.043499, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0435233, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.043537, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0435617, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0435743, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0435877, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0436008, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0436144, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0436285, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0436409, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.043653, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0436656, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0438476, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0438943, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0439162, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0439327, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.043949, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0439644, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0439801, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0439959, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.044012, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0440311, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0440757, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0440922, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0441527, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0441668, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0441754, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0441828, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0441904, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.044198, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.044205, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0442123, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0442264, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0442338, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0442412, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.044249, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0442986, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686735.044312, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.04432, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0443273, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0443347, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.044343, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0443504, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0443575, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.044366, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.044373, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0443802, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0443876, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0444334, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0444455, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0444527, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0444608, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.044468, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0444748, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0444837, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0444922, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0444994, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0445068, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.044514, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.044523, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0445666, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0445812, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0445895, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0445971, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0446043, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0446117, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0446198, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.044627, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0446343, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0446415, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0446486, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.044657, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0447001, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686735.0447123, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0447204, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0447273, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0447345, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0447416, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0447495, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0447567, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0447638, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0447707, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0447788, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0447865, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0448415, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0448558, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0448635, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0448709, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0448782, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.044886, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0448973, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0449054, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.044913, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0449207, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.044928, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.044937, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0449874, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0450013, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0450099, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0450175, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.045025, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0450323, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0450487, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0450566, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.045064, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0450716, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0450804, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0450885, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.0451334, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686735.045147, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0451548, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0451622, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.0451696, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.045177, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0451849, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.0451932, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.045201, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0452082, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0452158, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0452275, "node_id": "943e1ee1-cf73-fc2f-3339-2f35f4f9713f", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0452719, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PEERS_LIST", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686735.0452845, "node_id": "3b3b84bf-1d7a-386a-7ffa-af48ae8a7e68", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9001"}
+{"ts": 1771686735.0452938, "node_id": "eb30048a-f59b-9baf-1bd9-3b299ec6a8f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9002"}
+{"ts": 1771686735.0453014, "node_id": "93dc607a-4c8d-5352-3e97-520a8754658a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9003"}
+{"ts": 1771686735.045309, "node_id": "6f347646-645c-90f2-4225-1ce0a5fab2f8", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9004"}
+{"ts": 1771686735.0453181, "node_id": "d97c2fa3-f0cd-3f50-d25e-44d4d262e398", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9005"}
+{"ts": 1771686735.0453258, "node_id": "b3a6ff7d-f2c9-9d4b-e70f-1ce36b3042fb", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9006"}
+{"ts": 1771686735.045333, "node_id": "15fbdb2e-d6a1-06d9-3de7-36b98d22a21b", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9007"}
+{"ts": 1771686735.045341, "node_id": "8ed31004-f28b-52d2-9e71-0305a455b7f0", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9008"}
+{"ts": 1771686735.0453494, "node_id": "80e6e25c-c62b-f66a-2398-69d14aada222", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9009"}
+{"ts": 1771686735.0453565, "node_id": "68d9feb6-c628-b668-3b4f-1968652d8dc2", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9010"}
+{"ts": 1771686735.0453646, "node_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9012"}
+{"ts": 1771686735.101486, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686735.101557, "node_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9014"}
+{"ts": 1771686735.1021452, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686735.1479735, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686735.1480796, "node_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9015"}
+{"ts": 1771686735.1483505, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686735.198917, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686735.1990523, "node_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9016"}
+{"ts": 1771686735.199424, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686735.2454321, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686735.2456312, "node_id": "8cca488b-1885-2ed3-6605-cbb663258bfd", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9017"}
+{"ts": 1771686735.2461364, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686735.2965305, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686735.296646, "node_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9018"}
+{"ts": 1771686735.2970753, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686735.3486633, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686735.3487365, "node_id": "ca176f5f-1fad-d605-944a-f2e1d928c710", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9019"}
+{"ts": 1771686735.3489926, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686735.4048746, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686735.404973, "node_id": "8985f472-4522-0934-2938-ff292e8fce9e", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9020"}
+{"ts": 1771686735.405305, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686735.4497545, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686735.449852, "node_id": "dce31395-cd31-eee2-ef99-317c503a4749", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9021"}
+{"ts": 1771686735.450173, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686735.5031846, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686735.5033164, "node_id": "13545461-3d2f-7593-c9da-4b29142fb015", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9022"}
+{"ts": 1771686735.5036988, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686735.565359, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686735.5654836, "node_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9023"}
+{"ts": 1771686735.5658565, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686735.602348, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686735.6024559, "node_id": "4730410c-edda-5de7-f6e3-1ace90d2887e", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9024"}
+{"ts": 1771686735.6027732, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686735.6546104, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686735.6546993, "node_id": "34606017-4ef4-733c-a799-8dc88a9d1798", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9025"}
+{"ts": 1771686735.6549995, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686735.702194, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686735.702322, "node_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9026"}
+{"ts": 1771686735.7026994, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686735.7557392, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686735.7558959, "node_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9027"}
+{"ts": 1771686735.75641, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686735.8015585, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686735.8017006, "node_id": "e02f3e29-f3dc-2214-8f08-86e807354b94", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9028"}
+{"ts": 1771686735.802096, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686735.8562903, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686735.8563995, "node_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9029"}
+{"ts": 1771686735.8567216, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686735.9046645, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686735.904844, "node_id": "b6a21fd0-cf74-de32-50b4-c209d103675a", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9030"}
+{"ts": 1771686735.9054704, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686735.9588244, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686735.9589653, "node_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9031"}
+{"ts": 1771686735.9594316, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686736.0095627, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "HELLO", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686736.0096865, "node_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201", "port": 9013, "event": "PEER_ADD", "addr": "127.0.0.1:9032"}
+{"ts": 1771686736.009998, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PEERS_LIST", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686736.4430969, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686736.4434135, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686736.4922788, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686736.492553, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686736.541911, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686736.542186, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686736.5936859, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686736.5939178, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686736.641741, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686736.6421003, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686736.7016277, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686736.7017589, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686736.7421408, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686736.7424662, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686736.79332, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686736.793691, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686736.8427703, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686736.843016, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686736.8946447, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686736.8950331, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686736.9452536, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686736.945645, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686736.9943278, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686736.994548, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686737.0440743, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686737.0441487, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686737.0442705, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686737.0442922, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686737.0443733, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686737.044389, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686737.0444598, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686737.044479, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686737.0445511, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686737.0445673, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686737.0446558, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686737.0446727, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686737.0447373, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686737.0447545, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686737.044821, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686737.0448384, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686737.0449083, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686737.0449235, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686737.0449922, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686737.0450096, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686737.0451174, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686737.045137, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686737.0452068, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686737.0452232, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686737.045297, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686737.0453157, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686737.0453885, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686737.045404, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686737.0454757, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686737.0454922, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686737.0455618, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686737.045577, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686737.0456452, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686737.0456643, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686737.0457308, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686737.0457485, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686737.0458364, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686737.0458536, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686737.0459197, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686737.045935, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686737.0461712, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686737.0462155, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686737.0463467, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686737.0463743, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686737.0464594, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686737.0464818, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686737.046557, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686737.0465782, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686737.0466502, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686737.0466719, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686737.0467408, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686737.0467618, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686737.0468326, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686737.0468526, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686737.0469155, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686737.0469356, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686737.0469968, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686737.0470142, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686737.0470903, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686737.0471108, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686737.047175, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686737.047201, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686737.0472639, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686737.047284, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686737.0473528, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686737.0473728, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686737.047433, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686737.047452, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686737.0475125, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686737.0475295, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686737.0475917, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686737.0476093, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686737.0476809, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686737.0476973, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686737.0477564, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686737.0477731, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686737.0478468, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686737.0478644, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686737.0479264, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686737.0479445, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686737.1496027, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686737.149813, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686738.4480891, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686738.4483805, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686738.4969492, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686738.4972086, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686738.5469248, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686738.547201, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686738.5980942, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686738.5983956, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686738.6455624, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686738.6458287, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686738.7060337, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686738.706304, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686738.7467966, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686738.7471344, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686738.7981892, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686738.7984755, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686738.8451087, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686738.8452647, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686738.8973851, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686738.8976092, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686738.9481447, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686738.9483821, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686738.9974685, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686738.9977572, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686739.047519, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686739.0476427, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686739.047885, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686739.047954, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686739.0482156, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686739.0482974, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686739.0484898, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686739.048544, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686739.0487096, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686739.048756, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686739.0489216, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686739.0489626, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686739.0491586, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686739.049202, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686739.0493677, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686739.0494103, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686739.0495808, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686739.0496273, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686739.0497882, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686739.0498347, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686739.0499973, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686739.05006, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686739.0502288, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686739.0502758, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686739.0504417, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686739.050486, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686739.050664, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686739.0507164, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686739.0509045, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686739.0509517, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686739.0512192, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686739.0512812, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686739.0514798, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686739.0515356, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686739.0517259, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686739.0517797, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686739.051957, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686739.052005, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686739.0522263, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686739.052277, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686739.0526397, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686739.0527189, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686739.052937, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686739.052998, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686739.053358, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686739.053489, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686739.0538251, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686739.053871, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686739.0539684, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686739.053993, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686739.0540893, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686739.0541143, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686739.0541887, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686739.0542116, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686739.0542805, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686739.0543182, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686739.054385, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686739.054408, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686739.054475, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686739.0544972, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686739.054562, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686739.054584, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686739.0546699, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686739.054689, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686739.054751, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686739.0547705, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686739.05483, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686739.0548532, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686739.0549126, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686739.0549326, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686739.054993, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686739.0550127, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686739.0550814, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686739.0551012, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686739.055161, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686739.0551808, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686739.0552402, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686739.0552595, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686739.0553193, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686739.0553381, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686739.1536062, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686739.1537552, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686740.4546616, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686740.4549692, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686740.5016642, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686740.5019, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686740.551612, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686740.5519278, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686740.6017172, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686740.602006, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686740.6491387, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686740.649528, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686740.7097557, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686740.7099516, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686740.7508056, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686740.7511675, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686740.8027282, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686740.803062, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686740.848398, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686740.8487456, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686740.9005468, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686740.900931, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686740.9528227, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686740.9531739, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686741.0025852, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686741.0029287, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686741.0534985, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686741.0535913, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686741.053778, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686741.053823, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686741.0539744, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686741.054018, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686741.0542126, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686741.054255, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686741.0544002, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686741.054442, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686741.0545812, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686741.0546246, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686741.0547485, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686741.0548003, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686741.0549357, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686741.0549724, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686741.0551434, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686741.0551813, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686741.0553095, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686741.0553427, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686741.0554612, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686741.0554955, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686741.0556211, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686741.0556567, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686741.055814, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686741.05585, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686741.055964, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686741.0559967, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686741.0561366, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686741.056172, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686741.0563073, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686741.0563397, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686741.0564556, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686741.0564873, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686741.056598, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686741.0566294, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686741.0567436, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686741.0567737, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686741.0568943, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686741.0569227, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686741.0571766, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686741.057235, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686741.057398, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686741.0574434, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686741.0576, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686741.0576427, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686741.0577762, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686741.057819, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686741.0579436, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686741.057992, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686741.058148, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686741.0581915, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686741.0583155, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686741.0583568, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686741.0584779, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686741.058518, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686741.0586383, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686741.0586789, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686741.0588048, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686741.0588465, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686741.0589182, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686741.0589337, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686741.0589805, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686741.0589957, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686741.0590484, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686741.0590646, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686741.0591116, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686741.0591266, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686741.059298, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686741.0593226, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686741.0593994, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686741.059408, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686741.0594301, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686741.059436, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686741.059456, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686741.0594661, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686741.0594864, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686741.0594919, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686741.0595098, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686741.0595152, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686741.155864, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686741.1562524, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686742.458055, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686742.458241, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686742.5057306, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686742.5060158, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686742.5537884, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686742.553948, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686742.6041794, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686742.6043725, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686742.6529264, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686742.653297, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686742.722212, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686742.722461, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686742.7563055, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686742.7565756, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686742.807488, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686742.8077414, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686742.8519588, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686742.852188, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686742.9044504, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686742.9048102, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686742.9564462, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686742.9567199, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686743.0077698, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686743.0080829, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686743.0576813, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686743.0577843, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686743.0580046, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686743.0580924, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686743.0582852, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686743.0583327, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686743.058502, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686743.0585473, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686743.058708, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686743.0587554, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686743.0589237, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686743.058966, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686743.05918, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686743.059241, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686743.0594175, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686743.0594668, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686743.059637, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686743.059684, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686743.0598426, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686743.0599198, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686743.0601377, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686743.060183, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686743.0606694, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686743.0607083, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686743.0608108, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686743.0608318, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686743.0609074, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686743.0609238, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686743.0610096, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686743.0610316, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686743.0611176, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686743.0611334, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686743.061197, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686743.0612109, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686743.0612745, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686743.061291, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686743.061357, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686743.061371, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686743.0614383, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686743.0614552, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686743.061716, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686743.0617545, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686743.061882, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686743.0619075, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686743.0620046, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686743.0620294, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686743.0621154, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686743.0621357, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686743.0622056, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686743.0622272, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686743.0622947, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686743.0623152, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686743.06238, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686743.0623975, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686743.0624561, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686743.0624745, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686743.0625339, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686743.0625517, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686743.0626106, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686743.0626292, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686743.062689, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686743.0627067, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686743.0627644, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686743.0627806, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686743.0628352, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686743.0628505, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686743.0629067, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686743.0629244, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686743.0629787, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686743.0629995, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686743.0630765, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686743.0630949, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686743.0631492, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686743.0631664, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686743.0632188, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686743.0632353, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686743.0632925, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686743.0633085, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686743.063365, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686743.063381, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686743.1595056, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686743.159865, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686744.4608693, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686744.461166, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686744.5080044, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686744.5083122, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686744.5565956, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686744.556894, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686744.6092432, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686744.6095011, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686744.6568809, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686744.6571891, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686744.7255485, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686744.7257833, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686744.7607899, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686744.7609732, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686744.812087, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686744.8124037, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686744.8562725, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686744.8566022, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686744.9093528, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686744.9097483, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686744.9607115, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686744.960979, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686745.0125017, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686745.0129232, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686745.062395, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686745.0624492, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686745.0625255, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686745.062538, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686745.0625885, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686745.0626009, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686745.0626485, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686745.0626595, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686745.0627031, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686745.062714, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686745.0627558, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686745.0627658, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686745.0628076, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686745.0628343, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686745.0628812, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686745.0628967, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686745.0629644, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686745.0629804, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686745.0630734, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686745.063091, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686745.0631735, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686745.0631938, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686745.0632784, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686745.0632975, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686745.0633748, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686745.06339, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686745.0634696, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686745.063492, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686745.0635738, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686745.0635927, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686745.0636811, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686745.0637147, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686745.0638363, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686745.0638576, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686745.06394, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686745.063957, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686745.0640628, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686745.064088, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686745.0641654, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686745.0641994, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686745.0644312, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686745.064476, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686745.0646143, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686745.0646422, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686745.0647275, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686745.064754, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686745.0648317, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686745.0648544, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686745.0649295, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686745.064952, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686745.0650194, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686745.0650601, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686745.0651295, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686745.0651507, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686745.0652204, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686745.0652392, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686745.0653033, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686745.0653245, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686745.0653899, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686745.0654094, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686745.065473, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686745.0654945, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686745.0655582, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686745.0655775, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686745.0656536, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686745.0656729, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686745.0657334, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686745.0657446, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686745.0657809, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686745.0657911, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686745.0658274, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686745.0658374, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686745.065881, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686745.065893, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686745.06593, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686745.0659406, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686745.0659752, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686745.0659857, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686745.0660214, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686745.0660326, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686745.1647336, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686745.1651447, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686746.4652, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686746.4654195, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686746.5106578, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686746.5109556, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686746.559952, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686746.5602512, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686746.615148, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686746.615359, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686746.6615198, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686746.6618009, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686746.7298398, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686746.730207, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686746.7647803, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686746.7651765, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686746.8170283, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686746.8173032, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686746.8589065, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686746.859178, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686746.913357, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686746.913632, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686746.9644716, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686746.9647527, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686747.0168412, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686747.0171754, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686747.0656877, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686747.0657363, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686747.0658092, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686747.0658214, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686747.065871, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686747.065883, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686747.0659277, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686747.0659375, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686747.065996, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686747.066008, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686747.0660646, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686747.066075, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686747.066116, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686747.0661259, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686747.066172, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686747.0661812, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686747.0662258, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686747.0662353, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686747.066276, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686747.0662868, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686747.0663283, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686747.0663373, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686747.0663745, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686747.0663843, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686747.0664291, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686747.066438, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686747.0664737, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686747.066483, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686747.066519, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686747.066529, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686747.0665643, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686747.0665739, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686747.0666127, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686747.066626, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686747.0666618, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686747.0666704, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686747.0667083, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686747.0667186, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686747.0667799, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686747.066798, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686747.0670958, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686747.0671482, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686747.0672908, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686747.0673199, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686747.0674171, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686747.0674443, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686747.0675316, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686747.067557, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686747.067636, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686747.0676582, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686747.0677533, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686747.0677755, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686747.0678527, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686747.067874, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686747.0679483, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686747.067972, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686747.068056, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686747.0680778, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686747.0681589, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686747.0681748, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686747.0682073, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686747.0682175, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686747.0682516, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686747.0682619, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686747.068294, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686747.0683038, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686747.0683365, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686747.0683472, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686747.068379, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686747.0683885, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686747.0684211, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686747.0684316, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686747.0684648, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686747.0684743, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686747.0685074, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686747.0685165, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686747.0685492, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686747.0685596, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686747.0685928, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686747.068602, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686747.1683552, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686747.1687608, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686748.4688206, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9001"}
+{"ts": 1771686748.4690108, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9001"}
+{"ts": 1771686748.5125473, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9002"}
+{"ts": 1771686748.512807, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9002"}
+{"ts": 1771686748.5633643, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9003"}
+{"ts": 1771686748.5636344, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9003"}
+{"ts": 1771686748.620757, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9004"}
+{"ts": 1771686748.6210098, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9004"}
+{"ts": 1771686748.6665776, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9005"}
+{"ts": 1771686748.6668785, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9005"}
+{"ts": 1771686748.7332995, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9006"}
+{"ts": 1771686748.7335455, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9006"}
+{"ts": 1771686748.7695045, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9007"}
+{"ts": 1771686748.7696993, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9007"}
+{"ts": 1771686748.8208058, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9008"}
+{"ts": 1771686748.8211021, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9008"}
+{"ts": 1771686748.8618531, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9009"}
+{"ts": 1771686748.8622115, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9009"}
+{"ts": 1771686748.9169834, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9010"}
+{"ts": 1771686748.917395, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9010"}
+{"ts": 1771686748.9676065, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9011"}
+{"ts": 1771686748.9678197, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9011"}
+{"ts": 1771686749.0204322, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686749.0207667, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686749.0673578, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9012"}
+{"ts": 1771686749.0674243, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686749.0675387, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9014"}
+{"ts": 1771686749.0675557, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686749.0676198, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686749.0676355, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686749.0676982, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9016"}
+{"ts": 1771686749.0677135, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686749.0677743, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9017"}
+{"ts": 1771686749.0677884, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686749.0678442, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9018"}
+{"ts": 1771686749.0678568, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686749.0679123, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9019"}
+{"ts": 1771686749.0679276, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686749.0679846, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9020"}
+{"ts": 1771686749.0679975, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686749.068064, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9021"}
+{"ts": 1771686749.0680757, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686749.068127, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9022"}
+{"ts": 1771686749.0681407, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686749.0682025, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9023"}
+{"ts": 1771686749.068215, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686749.068265, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9024"}
+{"ts": 1771686749.0682783, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686749.0683289, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9025"}
+{"ts": 1771686749.0683405, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686749.0683897, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9026"}
+{"ts": 1771686749.0684094, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686749.0684588, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9027"}
+{"ts": 1771686749.0684698, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686749.068518, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9028"}
+{"ts": 1771686749.0685287, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686749.0685766, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9029"}
+{"ts": 1771686749.0685902, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686749.06864, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9030"}
+{"ts": 1771686749.068653, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686749.0687034, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9031"}
+{"ts": 1771686749.0687153, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686749.0687647, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PING", "to_addr": "127.0.0.1:9032"}
+{"ts": 1771686749.0687778, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PING_SENT", "to_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686749.0689468, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9012"}
+{"ts": 1771686749.068981, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ff0b7339-a43b-0bfc-6def-d519de0ea452"}
+{"ts": 1771686749.0690782, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9014"}
+{"ts": 1771686749.0690985, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7ee4db8e-db3a-5f81-0580-97c65bbbebdc"}
+{"ts": 1771686749.0691748, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686749.0691931, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "280bbea2-ad32-b2f0-3b2f-3137f7742d0d"}
+{"ts": 1771686749.069251, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9016"}
+{"ts": 1771686749.0692673, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "2558477a-c4e7-496f-9ce2-11d6eda0d0c9"}
+{"ts": 1771686749.0693307, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9018"}
+{"ts": 1771686749.06935, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "04dc7b9b-f126-19ab-3447-28c9e49c5991"}
+{"ts": 1771686749.0694048, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9017"}
+{"ts": 1771686749.0694225, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8cca488b-1885-2ed3-6605-cbb663258bfd"}
+{"ts": 1771686749.0694828, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9019"}
+{"ts": 1771686749.0694997, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "ca176f5f-1fad-d605-944a-f2e1d928c710"}
+{"ts": 1771686749.0695522, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9020"}
+{"ts": 1771686749.069568, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "8985f472-4522-0934-2938-ff292e8fce9e"}
+{"ts": 1771686749.0696192, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9022"}
+{"ts": 1771686749.069635, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "13545461-3d2f-7593-c9da-4b29142fb015"}
+{"ts": 1771686749.0696864, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9021"}
+{"ts": 1771686749.069703, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "dce31395-cd31-eee2-ef99-317c503a4749"}
+{"ts": 1771686749.0697565, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9023"}
+{"ts": 1771686749.0697718, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a"}
+{"ts": 1771686749.0698233, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9024"}
+{"ts": 1771686749.069838, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "4730410c-edda-5de7-f6e3-1ace90d2887e"}
+{"ts": 1771686749.069893, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9025"}
+{"ts": 1771686749.0699084, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "34606017-4ef4-733c-a799-8dc88a9d1798"}
+{"ts": 1771686749.0699596, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9027"}
+{"ts": 1771686749.0699754, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "85fc97fa-372b-17f9-9ef1-9b38a2567ff5"}
+{"ts": 1771686749.0700276, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9026"}
+{"ts": 1771686749.070053, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "0292c265-f4d8-28b4-ae83-25a18e4ed5c6"}
+{"ts": 1771686749.0701056, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9028"}
+{"ts": 1771686749.0701237, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "e02f3e29-f3dc-2214-8f08-86e807354b94"}
+{"ts": 1771686749.0701654, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9029"}
+{"ts": 1771686749.0701778, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d"}
+{"ts": 1771686749.0702305, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9030"}
+{"ts": 1771686749.0702431, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "b6a21fd0-cf74-de32-50b4-c209d103675a"}
+{"ts": 1771686749.0702844, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9032"}
+{"ts": 1771686749.0703003, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "969edbc1-78fd-034f-9ef8-93ccc95dd201"}
+{"ts": 1771686749.0703416, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PONG", "from_addr": "127.0.0.1:9031"}
+{"ts": 1771686749.070354, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "PONG_RECV", "from_id": "7bb11981-c81d-e6dd-34d3-2bcd31e173e1"}
+{"ts": 1771686749.1725028, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_RECV", "msg_type": "PING", "from_addr": "127.0.0.1:9015"}
+{"ts": 1771686749.1729445, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "MSG_SENT", "msg_type": "PONG", "to_addr": "127.0.0.1:9015"}
+{"ts": 1771686749.8721013, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "TOPOLOGY_DUMP", "peers": ["ff0b7339-a43b-0bfc-6def-d519de0ea452", "7ee4db8e-db3a-5f81-0580-97c65bbbebdc", "280bbea2-ad32-b2f0-3b2f-3137f7742d0d", "2558477a-c4e7-496f-9ce2-11d6eda0d0c9", "8cca488b-1885-2ed3-6605-cbb663258bfd", "04dc7b9b-f126-19ab-3447-28c9e49c5991", "ca176f5f-1fad-d605-944a-f2e1d928c710", "8985f472-4522-0934-2938-ff292e8fce9e", "dce31395-cd31-eee2-ef99-317c503a4749", "13545461-3d2f-7593-c9da-4b29142fb015", "aa3e0d35-7e14-4fc1-2e6a-37f7cd4ded8a", "4730410c-edda-5de7-f6e3-1ace90d2887e", "34606017-4ef4-733c-a799-8dc88a9d1798", "0292c265-f4d8-28b4-ae83-25a18e4ed5c6", "85fc97fa-372b-17f9-9ef1-9b38a2567ff5", "e02f3e29-f3dc-2214-8f08-86e807354b94", "b2bbddc5-8791-eda6-a8e1-9e53b96fb32d", "b6a21fd0-cf74-de32-50b4-c209d103675a", "7bb11981-c81d-e6dd-34d3-2bcd31e173e1", "969edbc1-78fd-034f-9ef8-93ccc95dd201"]}
+{"ts": 1771686749.872307, "node_id": "29a703f2-bdf1-6d13-732e-5dbb52713ba4", "port": 9013, "event": "NODE_STOP"}

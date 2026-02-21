@@ -296,6 +296,8 @@ class Node:
 
     async def _stdin_reader(self) -> None:
         """Read lines from stdin and originate a GOSSIP message for each."""
+        if not sys.stdin.isatty():
+            return
         loop = asyncio.get_running_loop()
         reader = asyncio.StreamReader()
         protocol = asyncio.StreamReaderProtocol(reader)

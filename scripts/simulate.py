@@ -139,29 +139,73 @@ def main() -> None:
     parser.add_argument("--gossip-wait", type=float, default=10.0)
     parser.add_argument("--log-dir", type=str, default="logs")
     parser.add_argument("--results-dir", type=str, default="results")
+    parser.add_argument("--run-all", action="store_true",
+                        help="Run the full experiment suite: N×mode sweep and fanout sweep")
     args = parser.parse_args()
 
     seeds = [int(s.strip()) for s in args.seeds.split(",")]
     os.makedirs(args.log_dir, exist_ok=True)
     os.makedirs(args.results_dir, exist_ok=True)
 
-    for seed in seeds:
-        print(f"Running experiment: n={args.n}, fanout={args.fanout}, ttl={args.ttl}, mode={args.mode}, seed={seed}")
-        run_experiment(
-            n=args.n,
-            fanout=args.fanout,
-            ttl=args.ttl,
-            mode=args.mode,
-            seed=seed,
-            peer_limit=args.peer_limit,
-            ping_interval=args.ping_interval,
-            peer_timeout=args.peer_timeout,
-            pow_k=args.pow_k,
-            stabilize_time=args.stabilize_time,
-            gossip_wait=args.gossip_wait,
-            log_dir=args.log_dir,
-            results_base=args.results_dir,
-        )
+    if args.run_all:
+        # Group 1: N=10,20,50 × mode=push,hybrid × seeds, fanout=3, ttl=8
+        for n in [10, 20, 50]:
+            for mode in ["push", "hybrid"]:
+                for seed in seeds:
+                    print(f"Running experiment: n={n}, fanout=3, ttl=8, mode={mode}, seed={seed}")
+                    run_experiment(
+                        n=n,
+                        fanout=3,
+                        ttl=8,
+                        mode=mode,
+                        seed=seed,
+                        peer_limit=args.peer_limit,
+                        ping_interval=args.ping_interval,
+                        peer_timeout=args.peer_timeout,
+                        pow_k=args.pow_k,
+                        stabilize_time=args.stabilize_time,
+                        gossip_wait=args.gossip_wait,
+                        log_dir=args.log_dir,
+                        results_base=args.results_dir,
+                    )
+        # Group 2: N=50 × fanout=2,5 × mode=push × seeds, ttl=8
+        # (fanout=3 already covered in group 1)
+        for fanout in [2, 5]:
+            for seed in seeds:
+                print(f"Running experiment: n=50, fanout={fanout}, ttl=8, mode=push, seed={seed}")
+                run_experiment(
+                    n=50,
+                    fanout=fanout,
+                    ttl=8,
+                    mode="push",
+                    seed=seed,
+                    peer_limit=args.peer_limit,
+                    ping_interval=args.ping_interval,
+                    peer_timeout=args.peer_timeout,
+                    pow_k=args.pow_k,
+                    stabilize_time=args.stabilize_time,
+                    gossip_wait=args.gossip_wait,
+                    log_dir=args.log_dir,
+                    results_base=args.results_dir,
+                )
+    else:
+        for seed in seeds:
+            print(f"Running experiment: n={args.n}, fanout={args.fanout}, ttl={args.ttl}, mode={args.mode}, seed={seed}")
+            run_experiment(
+                n=args.n,
+                fanout=args.fanout,
+                ttl=args.ttl,
+                mode=args.mode,
+                seed=seed,
+                peer_limit=args.peer_limit,
+                ping_interval=args.ping_interval,
+                peer_timeout=args.peer_timeout,
+                pow_k=args.pow_k,
+                stabilize_time=args.stabilize_time,
+                gossip_wait=args.gossip_wait,
+                log_dir=args.log_dir,
+                results_base=args.results_dir,
+            )
 
 
 if __name__ == "__main__":
